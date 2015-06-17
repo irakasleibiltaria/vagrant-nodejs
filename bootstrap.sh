@@ -5,7 +5,7 @@ apt-get update
 apt-get install -y software-properties-common
 add-apt-repository -y ppa:chris-lea/node.js
 apt-get update
-apt-get install -y nodejs
+apt-get install -y nodejs npm
 #npm install -g npm
 #npm cache clean -f
 #npm install --verbose -g yo --unsafe-perm
