@@ -26,6 +26,11 @@ http://localhost:3000
 ```
 Debug:
 ```
+$ node-debug --web-host 0.0.0.0 app.js 
+OR
 $ node-inspector &
 $ node --debug-brk app.js
+OR
+$ node-inspector &
+$ nodemon --debug-brk app.js
 ```
